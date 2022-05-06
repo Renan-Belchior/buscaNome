@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-
+import Repo from "./repos";
 const Profile = ({user}) => {
     return (
         <div>
@@ -27,7 +27,7 @@ const Profile = ({user}) => {
 
                         </ul>
                         <div className="card-body">
-                            <a href="repos.js" className="btn btn-success btn-block mt-1" style={{marginLeft: '30px'}}>Ver perfil e repositórios</a>
+                            <a href="" className="btn btn-success btn-block mt-1" style={{marginLeft: '30px'}}>Ver perfil e repositórios</a>
                         </div>
                     </div>
                 </div>
@@ -37,3 +37,4 @@ const Profile = ({user}) => {
 };
 
 export default Profile;
+
